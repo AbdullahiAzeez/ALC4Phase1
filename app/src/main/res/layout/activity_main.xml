@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ALC 4.0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/about_alc"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="16dp"
+            android:text="ABOUT ALC"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/profile"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_alc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="MY PROFILE"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
